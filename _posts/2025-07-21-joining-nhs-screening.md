@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Working in the open"
+title: "Joining NHS screening"
 date: 2025-07-21
 published: true
 ---
-
-## Joining NHS screening
 
 I joined NHS screening (breast cancer) in May, and I've gradually been getting up to speed. It's a massive honour to be working on a digital public health project, and I take this work seriously. 
 
@@ -19,7 +17,7 @@ A highlight of this project is working alongside subject matter experts, includi
 
 This is the first design history I've written. GDS (Government Digital Service, where I worked until January of this year) doesn't happen to have this trend. In the past, designers at GDS tended to blog on <a href="https://designnotes.blog.gov.uk/">Design Notes</a>. 
 
-Designers blogging at GDS has become increasingly slow and rare as blog posts go through various checks. I would like to suggest that GDS designers start using design histories to work in the open. This is great both for transparency, and to retain knowledge, which tends to disappear like dreams upon waking.
+Designers blogging at GDS have become increasingly rare (due to changes in how blog posts are approved and published, and probably other culture changes within the design team). I would like to suggest that GDS designers start using design histories to work in the open. This is great both for transparency, and to retain knowledge, which tends to disappear like dreams upon waking.
 
 
 
