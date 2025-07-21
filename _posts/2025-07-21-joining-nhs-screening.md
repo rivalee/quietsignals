@@ -7,7 +7,7 @@ published: true
 
 I joined NHS screening (breast cancer) in May, and I've gradually been getting up to speed. It's a massive honour to be working on a digital public health project, and I take this work seriously. 
 
-Last week I wrote a design history post for my NHS project on screening: <a href="https://design-history.prevention-services.nhs.uk/manage-breast-screening/2025/07/medical-annotation-tool-for-capturing-breast-features/" target="_new">Designing a medical annotation tool for capturing breast features</a>.
+Last week I wrote a design history post: <a href="https://design-history.prevention-services.nhs.uk/manage-breast-screening/2025/07/medical-annotation-tool-for-capturing-breast-features/" target="_new">Designing a medical annotation tool for capturing breast features</a>.
 
 As this is a medical annotation tool, it's an unusual thing to encounter in interaction design. It's probably most similar to a map in a service.
 
