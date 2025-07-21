@@ -226,7 +226,38 @@ footer {
     font-size: 1.25rem;
 }
 
+.bio a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #c965a5;
+    text-underline-offset: 5px;
+    text-decoration-skip-ink: auto;
+}
+
+.bio a:hover {
+    color: #e2e8f0;
+}
+
+.bio a:visited {
+    color: #e2e8f0;
+}
+
 [data-theme="light"] .bio {
+    color: #000000;
+}
+
+[data-theme="light"] .bio a {
+    color: #000000;
+    text-decoration-color: #1d2075;
+}
+
+[data-theme="light"] .bio a:hover {
+    color: #000000;
+}
+
+[data-theme="light"] .bio a:visited {
     color: #000000;
 }
 
