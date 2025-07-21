@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>Working in the open - quiet signals</title>
+    <meta name="description" content="I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed.">
     
     <script>
         // Prevent flash of dark theme - runs immediately before page renders
@@ -14,13 +14,13 @@
         }
     </script>
     
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-left">
-                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                <h1><a href="/">quiet signals</a></h1>
             </div>
             <button class="theme-toggle" onclick="toggleTheme()">
                 <span id="theme-text">Light background</span>
@@ -28,7 +28,28 @@
         </header>
         
         <main>
-            {{ content }}
+            <nav class="back-nav">
+  <a href="/">← Back to posts</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Working in the open</h1>
+    <div class="post-date">July 21, 2025</div>
+  </header>
+  
+  <div class="content">
+    <p>I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed.</p>
+
+<p>Last week I wrote a design history post for my NHS project on screening: <a href="https://design-history.prevention-services.nhs.uk/manage-breast-screening/2025/07/medical-annotation-tool-for-capturing-breast-features/" target="_new">Designing a medical annotation tool for capturing breast features</a>.</p>
+
+<p>As this is a medical annotation tool, it’s an unusual thing to encounter in interaction design. It’s probably most similar to a map in a service, where you could add landmarks to a map. A highlight was working with the clinician who drew the excellent annotations featured in the post.</p>
+
+<p>This is the first design history I’ve written, as GDS doesn’t happen to have this trend. In the past, designers at GDS tended to blog on <a href="https://designnotes.blog.gov.uk/">Design Notes</a>. But blogging has become increasingly slow as blog posts go through various checks. I would like to suggest that GDS designers now start using design histories to work in the open.</p>
+
+
+  </div>
+</article>
         </main>
         
         <footer>

@@ -1,7 +1,16 @@
 ---
 layout: post
-title: "Setting this up"
-date: 2025-07-20
+title: "New Twitter"
+date: 2025-07-21
+published: true
 ---
 
-Your first post content goes here...
+Welcome to my new Twitter. 
+
+The intention is to share some low-pressure bits and pieces about design, share some thoughts, share some things I have done or am in the process of doing.
+
+I'm currently a freelance designer working in government. I work on a digital NHS proiect. 
+
+I live in south east London. I'm interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.
+
+I'm also interested in utopias and positive visions for the future.

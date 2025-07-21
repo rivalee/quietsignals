@@ -1,19 +1,17 @@
-title: Quiet Signals
+title: quiet signals
 email: your-email@example.com
-description: A design blog by Rebecca
 baseurl: ""
 url: "https://quietsignals.co.uk"
 github_username: rivalee
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima    # <- Comment this out or remove it
 plugins:
   - jekyll-feed
 
-# Minima date format
-minima:
-  date_format: "%b %-d, %Y"
+# Add this to show future posts
+future: true
 
 # Exclude from processing
 exclude:

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>New Twitter - quiet signals</title>
+    <meta name="description" content="Welcome to my new Twitter.">
     
     <script>
         // Prevent flash of dark theme - runs immediately before page renders
@@ -14,13 +14,13 @@
         }
     </script>
     
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-left">
-                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                <h1><a href="/">quiet signals</a></h1>
             </div>
             <button class="theme-toggle" onclick="toggleTheme()">
                 <span id="theme-text">Light background</span>
@@ -28,7 +28,29 @@
         </header>
         
         <main>
-            {{ content }}
+            <nav class="back-nav">
+  <a href="/">← Back to posts</a>
+</nav>
+
+<article>
+  <header>
+    <h1>New Twitter</h1>
+    <div class="post-date">July 21, 2025</div>
+  </header>
+  
+  <div class="content">
+    <p>Welcome to my new Twitter.</p>
+
+<p>The intention is to share some low-pressure bits and pieces about design, share some thoughts, share some things I have done or am in the process of doing.</p>
+
+<p>I’m currently a freelance designer working in government. I work on a digital NHS proiect.</p>
+
+<p>I live in south east London. I’m interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.</p>
+
+<p>I’m also interested in utopias and positive visions for the future.</p>
+
+  </div>
+</article>
         </main>
         
         <footer>

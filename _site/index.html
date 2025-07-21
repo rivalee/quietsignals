@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>quiet signals</title>
+    <meta name="description" content="">
     
     <script>
         // Prevent flash of dark theme - runs immediately before page renders
@@ -14,13 +14,13 @@
         }
     </script>
     
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-left">
-                <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+                <h1><a href="/">quiet signals</a></h1>
             </div>
             <button class="theme-toggle" onclick="toggleTheme()">
                 <span id="theme-text">Light background</span>
@@ -28,7 +28,25 @@
         </header>
         
         <main>
-            {{ content }}
+            <ul class="post-list">
+    
+        <li class="post-item">
+            <h2 class="post-title">
+                <a href="/2025/07/21/working-in-the-open.html">Working in the open</a>
+            </h2>
+            <div class="post-date">July 21, 2025</div>
+        </li>
+    
+        <li class="post-item">
+            <h2 class="post-title">
+                <a href="/2025/07/21/setting-this-up.html">New Twitter</a>
+            </h2>
+            <div class="post-date">July 21, 2025</div>
+        </li>
+    
+</ul>
+
+
         </main>
         
         <footer>

@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Rebecca is a freelance designer (also artist), interested in designing for social benefit for everyone: humans, animals, and the planet. Because everything is interconnected.
+Rebecca is a designer interested in designing for social benefit for everyone: humans, animals, and the planet. Because everything is interconnected.
