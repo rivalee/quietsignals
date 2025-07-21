@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-21T18:27:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quiet signals</title><entry><title type="html">New Twitter</title><link href="http://localhost:4000/2025/07/21/setting-this-up.html" rel="alternate" type="text/html" title="New Twitter" /><published>2025-07-21T00:00:00+01:00</published><updated>2025-07-21T00:00:00+01:00</updated><id>http://localhost:4000/2025/07/21/setting-this-up</id><content type="html" xml:base="http://localhost:4000/2025/07/21/setting-this-up.html"><![CDATA[<p>Welcome to my new Twitter.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-21T18:42:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">quiet signals</title><entry><title type="html">New Twitter</title><link href="http://localhost:4000/2025/07/21/setting-this-up.html" rel="alternate" type="text/html" title="New Twitter" /><published>2025-07-21T00:00:00+01:00</published><updated>2025-07-21T00:00:00+01:00</updated><id>http://localhost:4000/2025/07/21/setting-this-up</id><content type="html" xml:base="http://localhost:4000/2025/07/21/setting-this-up.html"><![CDATA[<p>Welcome to my new Twitter.</p>
 
 <p>The intention is to share some low-pressure bits and pieces about design, share some thoughts, share some things I have done or am in the process of doing.</p>
 
 <p>I’m currently a freelance designer working in government. I work on a digital NHS proiect.</p>
 
-<p>I live in south east London. I’m interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.</p>
+<p>I live in south east London. I also paint and make comics.</p>
 
-<p>I’m also interested in utopias and positive visions for the future.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome to my new Twitter.]]></summary></entry><entry><title type="html">Working in the open</title><link href="http://localhost:4000/2025/07/21/working-in-the-open.html" rel="alternate" type="text/html" title="Working in the open" /><published>2025-07-21T00:00:00+01:00</published><updated>2025-07-21T00:00:00+01:00</updated><id>http://localhost:4000/2025/07/21/working-in-the-open</id><content type="html" xml:base="http://localhost:4000/2025/07/21/working-in-the-open.html"><![CDATA[<p>I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed.</p>
+<p>I’m interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.</p>
+
+<p>I’m involved in a local community gardening project, where we’re looking after some planters outside a Co-op.</p>
+
+<p>I’m interested in utopias and positive visions for the future.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Welcome to my new Twitter.]]></summary></entry><entry><title type="html">Working in the open</title><link href="http://localhost:4000/2025/07/21/working-in-the-open.html" rel="alternate" type="text/html" title="Working in the open" /><published>2025-07-21T00:00:00+01:00</published><updated>2025-07-21T00:00:00+01:00</updated><id>http://localhost:4000/2025/07/21/working-in-the-open</id><content type="html" xml:base="http://localhost:4000/2025/07/21/working-in-the-open.html"><![CDATA[<h2 id="joining-nhs-screening">Joining NHS screening</h2>
+
+<p>I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed. It’s a massive honour to be working on a digital public health project, and I take this work seriously.</p>
 
 <p>Last week I wrote a design history post for my NHS project on screening: <a href="https://design-history.prevention-services.nhs.uk/manage-breast-screening/2025/07/medical-annotation-tool-for-capturing-breast-features/" target="_new">Designing a medical annotation tool for capturing breast features</a>.</p>
 
-<p>As this is a medical annotation tool, it’s an unusual thing to encounter in interaction design. It’s probably most similar to a map in a service, where you could add landmarks to a map. A highlight was working with the clinician who drew the excellent annotations featured in the post.</p>
+<p>As this is a medical annotation tool, it’s an unusual thing to encounter in interaction design. It’s probably most similar to a map in a service.</p>
 
-<p>This is the first design history I’ve written, as GDS doesn’t happen to have this trend. In the past, designers at GDS tended to blog on <a href="https://designnotes.blog.gov.uk/">Design Notes</a>. But blogging has become increasingly slow as blog posts go through various checks. I would like to suggest that GDS designers now start using design histories to work in the open.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed.]]></summary></entry></feed>
+<p>A highlight of this project is working alongside subject matter experts, including the distinguished doctor who created the medical drawings featured in the post.</p>
+
+<h2 id="design-histories">Design histories</h2>
+
+<p>This is the first design history I’ve written. GDS (Government Digital Service, where I worked until January of this year) doesn’t happen to have this trend. In the past, designers at GDS tended to blog on <a href="https://designnotes.blog.gov.uk/">Design Notes</a>.</p>
+
+<p>Designers blogging at GDS has become increasingly slow and rare as blog posts go through various checks. I would like to suggest that GDS designers start using design histories to work in the open. This is great both for transparency, and to retain knowledge, which tends to disappear like dreams upon waking.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Joining NHS screening]]></summary></entry></feed>

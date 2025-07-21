@@ -11,6 +11,10 @@ The intention is to share some low-pressure bits and pieces about design, share 
 
 I'm currently a freelance designer working in government. I work on a digital NHS proiect. 
 
-I live in south east London. I'm interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.
+I live in south east London. I also paint and make comics.
 
-I'm also interested in utopias and positive visions for the future.
+I'm interested in how cities can make neighbourhoods more friendly for humans, nature, and active travel.
+
+I'm involved in a local community gardening project, where we're looking after some planters outside a Co-op. 
+
+I'm interested in utopias and positive visions for the future.
