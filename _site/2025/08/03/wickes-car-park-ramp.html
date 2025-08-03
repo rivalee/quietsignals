@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catford ramp in the Wickes car park - quiet signals</title>
+    <meta name="description" content="Since I moved back to London, I’ve been looking for cycling routes that are near or along water. I quickly found the Waterlink Way – a pedestrian and cycling...">
+    
+    <script>
+const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1><a href="/">Rebecca Cottrell</a></h1>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="theme-text">Light background</span>
+            </button>
+        </header>
+        
+        <main>
+            <nav class="back-nav">
+  <a href="/">← Back to posts</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Catford ramp in the Wickes car park</h1>
+    <div class="post-date">August 03, 2025</div>
+  </header>
+  
+  <div class="content">
+    <p>Since I moved back to London, I’ve been looking for cycling routes that are near or along water. I quickly found the <a href="https://www.sustrans.org.uk/find-a-route-on-the-national-cycle-network/waterlink-way/">Waterlink Way</a> – a pedestrian and cycling path that goes all the way from Cutty Sark to South Norwood.</p>
+
+<p>I miss Brighton’s <a href="https://undercliffwalk.uk/">Undercliff walk</a>, but cycling along Ravensbourne river is still quite good. I am lucky to have nature all around me: I’m near Greenwich Park and Beckenham Place Park (the Hampstead Heath of South London).</p>
+
+<h2 id="the-ramp-in-the-wickes-car-park">The ramp in the Wickes car park</h2>
+<p>So on the way to the Waterlink Way there is a little ramp in a car park, which clearly wasn’t put there by Lewisham Council:</p>
+
+<p><img alt="Small concrete ramp on a kerb" src="/assets/images/catford-ramp.png" /></p>
+
+<p>It’s a mystery who put this little ramp there. It probably didn’t cost very much, but for those who discover it<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>, it probably seriously improves the experience for cyclists who travel through here.</p>
+
+<p>Thank god for the Wickes car park ramp!</p>
+
+<p>And thank god for people who just do things which improve city infrastructure without asking for permission.</p>
+
+<p>(Writing about the Wickes car park ramp is inspired by Hazel Perryman who shared a tribute to the ramp on Instagram.)</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It’s not very visible when you approach it, but few cyclists would probably choose to plunge over a kerb <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+</article>
+        </main>
+        
+        <footer>
+            <div class="bio">
+<p>Rebecca is a designer committed to creating work that benefits people and the living world (because everything <a href="https://en.wikipedia.org/wiki/Interbeing">inter-is</a>).</p>
+    <p><a href="/about">About</a></p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            console.log('Toggle clicked!'); 
+            
+            const htmlRoot = document.documentElement;
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Current theme attr:', htmlRoot.getAttribute('data-theme')); // Debug
+            console.log('Has data-theme attr:', htmlRoot.hasAttribute('data-theme')); // Debug
+            
+            if (htmlRoot.hasAttribute('data-theme')) {
+                htmlRoot.removeAttribute('data-theme');
+                themeText.innerHTML = 'Light background';
+                localStorage.setItem('theme', 'dark');
+                console.log('Switched to dark');
+            } else {
+                htmlRoot.setAttribute('data-theme', 'light');
+                themeText.innerHTML = 'Dark background';
+                localStorage.setItem('theme', 'light');
+                console.log('Switched to light');
+            }
+            
+            console.log('After change:', htmlRoot.getAttribute('data-theme')); // Debug
+        }
+        
+        window.onload = function() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Saved theme:', savedTheme);
+            
+            if (savedTheme === 'light') {
+                themeText.innerHTML = 'Dark background';
+                console.log('Set button to show dark option');
+            } else {
+                themeText.innerHTML = 'Light background';
+                console.log('Set button to show light option');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -29,6 +29,47 @@ body {
     padding: 60px 30px 40px;
 }
 
+/* Image restrictions - prevents images from exceeding column width */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Additional image rules for different contexts */
+article .content img,
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* For images in figure elements */
+figure {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #99b3cc;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+[data-theme="light"] figcaption {
+    color: rgba(0, 0, 0, 0.7);
+}
+
 header {
     margin-bottom: 80px;
     display: flex;

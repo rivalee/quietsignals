@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joining NHS screening - quiet signals</title>
-    <meta name="description" content="I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed. It’s a massive honour to be working on a digital public health pr...">
+    <meta name="description" content="I joined NHS screening (breast cancer) in May. It’s a massive honour to be working on a digital public health project, and I take this work seriously.">
     
     <script>
-        // Prevent flash of dark theme - runs immediately before page renders
-        const savedTheme = localStorage.getItem('theme');
+const savedTheme = localStorage.getItem('theme');
         if (savedTheme === 'light') {
             document.documentElement.setAttribute('data-theme', 'light');
         }
@@ -20,7 +19,7 @@
     <div class="container">
         <header>
             <div class="header-left">
-                <h1><a href="/">quiet signals</a></h1>
+                <h1><a href="/">Rebecca Cottrell</a></h1>
             </div>
             <button class="theme-toggle" onclick="toggleTheme()">
                 <span id="theme-text">Light background</span>
@@ -39,19 +38,15 @@
   </header>
   
   <div class="content">
-    <p>I joined NHS screening (breast cancer) in May, and I’ve gradually been getting up to speed. It’s a massive honour to be working on a digital public health project, and I take this work seriously.</p>
+    <p>I joined NHS screening (breast cancer) in May. It’s a massive honour to be working on a digital public health project, and I take this work seriously.</p>
 
 <p>Last week I wrote a design history post: <a href="https://design-history.prevention-services.nhs.uk/manage-breast-screening/2025/07/medical-annotation-tool-for-capturing-breast-features/" target="_new">Designing a medical annotation tool for capturing breast features</a>.</p>
 
-<p>As this is a medical annotation tool, it’s an unusual thing to encounter in interaction design. It’s probably most similar to a map in a service.</p>
+<p>A medical annotation tool is an unusual thing to encounter in interaction design. It’s probably most similar to a map in a service.</p>
 
 <p>A highlight of this project is working alongside subject matter experts, including the distinguished doctor who created the medical drawings featured in the post.</p>
 
-<h2 id="design-histories">Design histories</h2>
-
-<p>This is the first design history I’ve written. GDS (Government Digital Service, where I worked until January of this year) doesn’t happen to have this trend. In the past, designers at GDS tended to blog on <a href="https://designnotes.blog.gov.uk/">Design Notes</a>.</p>
-
-<p>Designers blogging at GDS have become increasingly rare (due to changes in how blog posts are approved and published, and probably other culture changes within the design team). I would like to suggest that GDS designers start using design histories to work in the open. This is great both for transparency, and to retain knowledge, which tends to disappear like dreams upon waking.</p>
+<p>This is the first design history I’ve written, which is a great way to directly share work in progress without the pressures of an official organisation blog.</p>
 
 
   </div>
@@ -60,7 +55,8 @@
         
         <footer>
             <div class="bio">
-                <p>Rebecca is a designer interested in designing for social benefit for everyone: humans, animals, and the planet. Because everything <a href="https://en.wikipedia.org/wiki/Interbeing">inter-is</a>.</p>
+<p>Rebecca is a designer committed to creating work that benefits people and the living world (because everything <a href="https://en.wikipedia.org/wiki/Interbeing">inter-is</a>).</p>
+    <p><a href="/about">About</a></p>
 
             </div>
         </footer>
@@ -91,7 +87,6 @@
             console.log('After change:', htmlRoot.getAttribute('data-theme')); // Debug
         }
         
-        // Initialize on page load - just update button text since theme is already set
         window.onload = function() {
             const savedTheme = localStorage.getItem('theme');
             const themeText = document.getElementById('theme-text');

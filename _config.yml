@@ -1,12 +1,12 @@
-title: quiet signals
-email: your-email@example.com
+title: Rebecca Cottrell
+email: r.e.cottrell@gmail.com
 baseurl: ""
 url: "https://quietsignals.co.uk"
 github_username: rivalee
 
 # Build settings
 markdown: kramdown
-# theme: minima    # <- Comment this out or remove it
+
 plugins:
   - jekyll-feed
 
