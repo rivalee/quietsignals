@@ -318,17 +318,8 @@ footer {
 article header {
     margin-bottom: 50px;
     text-align: left;
-}
-
-article h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    font-weight: 400;
-    color: #ffffff;
-}
-
-[data-theme="light"] article h1 {
-    color: #000000;
+    display: block;
+    flex-direction: column;
 }
 
 article .post-date {
@@ -337,10 +328,23 @@ article .post-date {
     font-weight: 400;
     letter-spacing: -0.02em;
     line-height: 1.5;
-    margin: 0;
+    margin: 0 0 10px 0;
+    display: block;
 }
 
 [data-theme="light"] article .post-date {
+    color: #000000;
+}
+
+article h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+}
+
+[data-theme="light"] article h1 {
     color: #000000;
 }
 

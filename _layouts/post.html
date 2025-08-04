@@ -8,8 +8,8 @@ layout: base
 
 <article>
   <header>
+        <div class="post-date">{{ page.date | date: "%-d %B %Y" }}</div>
     <h1>{{ page.title | escape }}</h1>
-    <div class="post-date">{{ page.date | date: "%B %d, %Y" }}</div>
   </header>
   
   <div class="content">
