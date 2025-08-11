@@ -24,13 +24,15 @@ Here is the whole principle:
 There’s a lot in here: 
 
 * The fact that digital services have an impact on the real world, and require a large amount of energy, water and materials. 
-* That small changes, embedded within a design system, can be cumulative – small improvements are multiplied. 
+* That small changes, embedded within a design system, can be cumulative – small improvements are multiplied. These small changes reduce the environmental impact of climate change, biodiversity loss and pollution. 
 * Sustainability best practice should be followed. This is a deliberate variable to keep this design principle relevant as best practice changes over time. 
 
 Each design principle has a space for blog posts which help to illuminate the principle. This also helps the principle to stay fresh and relevant.
 
 ## The beginnings
-We weren't talking about sustainability in the design team. AI and video were increasingly mentioned. Tom Greenwood published the excellent primer 'Sustainable Web Design', so web sustainability was emerging as a concern. W3C also published the [sustainable web guidelines](https://w3c.github.io/sustainableweb-wsg/). The [NHS had recently added sustainability to their design principles](https://digital.nhs.uk/blog/design-matters/2023/why-weve-put-sustainability-into-the-nhs-digital-design-principles). A lot of progress was happening outside of GDS. 
+Web sustainability was emerging as a concern, but it wasn't well known. We weren't talking about sustainability in the design team at GDS. Pages on GOV.UK had always been light (accessibility and sustainability go hand in hand), but since 2022, AI and video were increasingly being mentioned by senior management. 
+
+I read Tom Greenwood's excellent book 'Sustainable Web Design'. W3C published the [sustainable web guidelines](https://w3c.github.io/sustainableweb-wsg/). The [NHS had recently added sustainability to their design principles](https://digital.nhs.uk/blog/design-matters/2023/why-weve-put-sustainability-into-the-nhs-digital-design-principles). A lot of progress was happening outside of GDS. 
 
 The intention behind setting up a group was to create a platform to explore digital sustainability, and bring it into the design team's awareness, consideration and conversations. In 2023, I created a Slack channel called ‘Planet centred design’[^1] and invited designers at GDS to join. 
 
@@ -54,32 +56,37 @@ The government design principles didn't cover environmental impact of government
 
 The [government design principles](https://www.gov.uk/guidance/government-design-principles) have been around since 2012. They have been hugely influential. 
 
-They’re easy to remember and apply. For example, “Start with user needs”. They lie at the heart of more detailed guidance. 
+They’re easy to remember and apply: for example, “Start with user needs” is the first design principle. They lie at the heart of more detailed guidance. 
 
 According to [Tim Paul](https://www.timpaul.co.uk/), they were written in about two weeks by a handful of designers. There were no committees or workshops. 
 
-The GDS design principles were renamed to the government design principles in 2013. This meant their scope was much larger – they affected more people. 
+The GDS design principles were renamed to the government design principles about a year after they were published. This meant their scope was now much larger – they affected more people. 
 
-When updating them in 2025, we had a responsibility to make sure a selection of people were represented in the discussion. We also wanted to address any concerns or questions that might arise. 
+We (fine — I) initially joked about doing a pull request to update the design principles. But we accepted that when updating them in 2025, we had a responsibility to make sure a range of people and disciplines were represented in the discussion. We also wanted an opportunity to address any concerns or questions that might arise. 
 
 ## Getting people involved 
 
-We wanted to keep the collaboration process lightweight: 
+We kept the collaboration process lightweight: 
 
 * We recruited 12 people from different disciplines and organisations.
 * We ran two workshops only, each an hour long.
 
 The working group contained representative of each discipline. That included content, developers, research, interaction design and service design. We included representatives from teams focusing on Artificial Intelligence, design systems, and organisations including DEFRA, DWP and HMRC.
 
+I was initially worried that involving a group wouldn't result in something better. I am now absolutely certain that thanks to involving multiple people in this process, and going through the workshops, we ended up with something better. We had consensus, and we had evidence of consensus. We also had a group of people in different teams and departments who now had a stake in this work, and knew about what we were doing, and would be able to share it with their teams and departments.
+
+
 ## Workshop 1: what's a principle good for anyway?
 
-The first workshop focused on the purpose of a design principle. 
+The first workshop[^2] focused on the purpose of a design principle. 
 
 How were they used? What was their utility? What worked well, what didn't? 
 
 We also asked users about sustainability, and what we should be covering. 
 
 We identified and roughly prioritised things that we needed to include. 
+
+[^2]: Another barrier was tools that can be used by people across government. We used Padlet, which despite our best efforts, still had some problems. The best tool for cross-gov collaboration remains an unsolved problem.
 
 <img alt="Concentric circles with core, how we do it, and guidance: long term impact, balance, and real world impact in the core" src="/assets/images/dp-workshop-themes.png">
 
@@ -114,10 +121,10 @@ Every word needed to earn its place.
 
 Doing this wasn't easy. We had many obstacles to overcome: 
 
-* We had to find out who owned the 10+ year old GOV.UK page. It wasn’t technically owned by any team. It made sense for the Service Manual to adopt this page, and we were relieved they were happy to do that.
+* We had to find out who owned the 10+ year old government design principles page. It wasn’t technically owned by any team. It made sense for the Service Manual to adopt this page, and we were relieved they were happy to do that.
 * Getting people to show up to the workshop. Getting people to reply to our emails. Coordinating editing with the working group. Given we were doing this around our day job, it wasn’t always easy or straightforward.
-* Finding the right words was hard. The workshops really helped with this, as we knew what themes we needed to prioritise. Despite unfounded fears we were forming a ‘design by committee’, the workshops were extremely helpful and valuable. It helped that we kept the number of attendees low, and we were very selective about who we invited. We were blessed to have some really excellent participants. 
-* The ultimate risk that we did all this work for nothing, and we’d be stopped by senior management, or DSIT (who needed to approve the blog post). Fortunately none of this happened and we sailed through. 
+* Finding the right words was hard. The workshops really helped with this, as we knew what themes we needed to prioritise. Despite unfounded fears we were forming a design by committee, the workshops were extremely helpful and valuable. It helped that we kept the number of attendees low, and we were very selective about who we invited. We were blessed to have some really excellent participants. 
+* The ultimate risk that we did all this work for nothing, and we’d be stopped by senior management, or DSIT — who needed to approve the blog post. Fortunately none of this happened and we sailed through. 
 
 
 We overcame all of the obstacles. 
