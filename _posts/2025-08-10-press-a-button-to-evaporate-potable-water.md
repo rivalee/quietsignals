@@ -32,7 +32,7 @@ Each design principle has a space for blog posts which help to illuminate the pr
 ## The beginnings
 Web sustainability was emerging as a concern, but it wasn't well known. We weren't talking about sustainability in the design team at GDS. Pages on GOV.UK had always been light (accessibility and sustainability go hand in hand), but since 2022, AI and video were increasingly being mentioned by senior management. 
 
-I read Tom Greenwood's excellent book 'Sustainable Web Design'. W3C published the [sustainable web guidelines](https://w3c.github.io/sustainableweb-wsg/). The [NHS had recently added sustainability to their design principles](https://digital.nhs.uk/blog/design-matters/2023/why-weve-put-sustainability-into-the-nhs-digital-design-principles). A lot of progress was happening outside of GDS. 
+I read Tom Greenwood's excellent book 'Sustainable Web Design'. The [W3C published the sustainable web guidelines](https://w3c.github.io/sustainableweb-wsg/). The [NHS had recently added sustainability to their design principles](https://digital.nhs.uk/blog/design-matters/2023/why-weve-put-sustainability-into-the-nhs-digital-design-principles). A lot of progress was happening outside of GDS. 
 
 The intention behind setting up a group was to create a platform to explore digital sustainability, and bring it into the design team's awareness, consideration and conversations. In 2023, I created a Slack channel called ‘Planet centred design’[^1] and invited designers at GDS to join. 
 
@@ -62,7 +62,7 @@ According to [Tim Paul](https://www.timpaul.co.uk/), they were written in about 
 
 The GDS design principles were renamed to the government design principles about a year after they were published. This meant their scope was now much larger – they affected more people. 
 
-We (fine — I) initially joked about doing a pull request to update the design principles. But we accepted that when updating them in 2025, we had a responsibility to make sure a range of people and disciplines were represented in the discussion. We also wanted an opportunity to address any concerns or questions that might arise. 
+When updating them in 2025, we had a responsibility to make sure a range of people and disciplines were represented in the discussion. We also wanted an opportunity to address any concerns or questions that might arise. 
 
 ## Getting people involved 
 
