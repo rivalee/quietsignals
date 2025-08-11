@@ -56,7 +56,7 @@ The government design principles didn't cover environmental impact of government
 
 The [government design principles](https://www.gov.uk/guidance/government-design-principles) have been around since 2012. They have been hugely influential. 
 
-They’re easy to remember and apply: for example, “Start with user needs” is the first design principle. They lie at the heart of more detailed guidance. 
+They’re easy to remember and apply: for example, “Start with user needs” is the first design principle. They are the heart of more detailed guidance. 
 
 According to [Tim Paul](https://www.timpaul.co.uk/), they were written in about two weeks by a handful of designers. There were no committees or workshops. 
 
