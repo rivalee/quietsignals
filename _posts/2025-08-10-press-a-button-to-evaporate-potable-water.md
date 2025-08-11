@@ -5,7 +5,7 @@ date: 2025-08-10
 published: true
 ---
 
-*Here are some expanded notes on one of the most marvellous things I've been involved with. I'm incredibly grateful to everyone who helped to make this happen. I didn't do it by myself, it's an example of good people and good conditions aligning. <a href="https://services.blog.gov.uk/2025/04/02/adding-sustainability-to-the-government-design-principles/">You can also read our official and approved blog post</a>.*
+*Here are some expanded notes on one of the most marvellous things I've been involved with. I'm incredibly grateful to everyone who helped to make this happen. I didn't do it by myself, it's an example of good people working together and good conditions allowing. <a href="https://services.blog.gov.uk/2025/04/02/adding-sustainability-to-the-government-design-principles/">You can also read our official and approved blog post</a>.*
 
 <hr>
 
@@ -78,13 +78,9 @@ I was initially worried that involving a group wouldn't result in something bett
 
 ## Workshop 1: what's a principle good for anyway?
 
-The first workshop[^2] focused on the purpose of a design principle. 
+The first workshop[^2] focused on the purpose of a design principle. How were they used? What was their utility? What worked well, what didn't? 
 
-How were they used? What was their utility? What worked well, what didn't? 
-
-We also asked users about sustainability, and what we should be covering. 
-
-We identified and roughly prioritised things that we needed to include. 
+We asked users about sustainability, and what we should be covering. We identified and roughly prioritised things that we needed to include. 
 
 [^2]: Another barrier was tools that can be used by people across government. We used Padlet, which despite our best efforts, still had some problems. The best tool for cross-gov collaboration remains an unsolved problem.
 
@@ -107,43 +103,41 @@ The second workshop focused on critiquing, editing and rewriting this draft.
 
 ## Iterating, sharing, emerging
 
-Once the workshops were done, we iterated multiple times. 
-
-Then we iterated again. 
-
-Then shared it with the working group.
-
-We then iterated again. 
-
-Every word needed to earn its place.
+Once the workshops were done, we iterated multiple times. Then we iterated again. Then shared it with the working group. Every word needed to earn its place.
 
 ## We might have been stopped
 
-Doing this wasn't easy. We had many obstacles to overcome: 
+Throughout this process, we did everything we could to reduce the risk of failure. We were in touch with senior stakeholders in different programmes at GDS. All senior stakeholders we approached to sponsor our Service Manual change request agreed to it. We had evidence of cross-government engagement and consensus, and precedent set by other departments taking action for sustainability. 
+
+While this all helped, we couldn't control every variable, especially since GDS was being moved into DSIT at the time. The ultimate risk was that we did all this work for nothing, and we’d be stopped by senior management, or DSIT — who needed to approve the blog post. 
+
+Fortunately none of this happened and we sailed through. 
+
+Other obstacles we had to overcome: 
 
 * We had to find out who owned the 10+ year old government design principles page. It wasn’t technically owned by any team. It made sense for the Service Manual to adopt this page, and we were relieved they were happy to do that.
 * Getting people to show up to the workshop. Getting people to reply to our emails. Coordinating editing with the working group. Given we were doing this around our day job, it wasn’t always easy or straightforward.
 * Finding the right words was hard. The workshops really helped with this, as we knew what themes we needed to prioritise. Despite unfounded fears we were forming a design by committee, the workshops were extremely helpful and valuable. It helped that we kept the number of attendees low, and we were very selective about who we invited. We were blessed to have some really excellent participants. 
-* The ultimate risk that we did all this work for nothing, and we’d be stopped by senior management, or DSIT — who needed to approve the blog post. Fortunately none of this happened and we sailed through. 
 
-
-We overcame all of the obstacles. 
 
 ## Receipts ready for Service Manual change request
 
-We had all of our receipts and evidence ready for our Service Manual change request. 
-
-We had evidence of consensus, having engaged people via a collaborative process. 
-
-We also had the precedent set by other departments. This helped. 
+We had all of our receipts and evidence ready for our Service Manual change request. We had evidence of consensus, having engaged people via a collaborative process. We also had the precedent set by other departments.
 
 Progress made by one department or organisation always helps everyone.  
 
 ## The open contribution model makes good things possible 
 
-GDS has an open contribution model in the form of the Design System and the Service Manual. Thanks to this, [we could submit a change request](https://www.gov.uk/service-manual/communities/propose-a-change-to-the-service-manual). 
+What made this work possible is that GDS has an open contribution model in the form of the Design System and the Service Manual. Thanks to this, [we could submit a change request](https://www.gov.uk/service-manual/communities/propose-a-change-to-the-service-manual). 
 
 It's important to note that this work happened ‘bottom-up’ from the design community (not a top-down objective from senior management). 
 
-Three cheers for the incredible Service Manual. 
+Where open contribution models exist, individual contributors can make important work happen.
 
+Three cheers for the amazing [Service Manual](https://www.gov.uk/service-manual). 
+
+<hr>
+
+*Thanks to [Cennydd](https://cennydd.com/) for reading the draft and suggesting some good edits.*
+
+<hr>
