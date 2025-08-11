@@ -5,7 +5,7 @@ date: 2025-08-10
 published: true
 ---
 
-*Here are some expanded notes on one of the most marvellous things I've been involved with. I'm incredibly grateful to everyone who helped to make this happen. I didn't do it by myself, it's an example of good people working together and good conditions allowing. <a href="https://services.blog.gov.uk/2025/04/02/adding-sustainability-to-the-government-design-principles/">You can also read our official and approved blog post</a>.*
+*Here are some expanded notes on one of the most marvellous things I've been involved with. I'm incredibly grateful to everyone who helped to make this happen. I didn't do it by myself, it's an example of good people and the right conditions. <a href="https://services.blog.gov.uk/2025/04/02/adding-sustainability-to-the-government-design-principles/">You can also read our official and approved blog post</a>.*
 
 <hr>
 
