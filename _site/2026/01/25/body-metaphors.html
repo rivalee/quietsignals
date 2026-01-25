@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body metaphors - Rebecca Cottrell</title>
+    <meta name="description" content="Vase and a lemon pig, oil on canvas, 2026">
+    
+    <script>
+const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1><a href="/">Rebecca Cottrell</a></h1>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="theme-text">Light background</span>
+            </button>
+        </header>
+        
+        <main>
+            <nav class="back-nav">
+  <a href="/">← Back to posts</a>
+</nav>
+
+<article>
+  <header>
+        <div class="post-date">25 January 2026</div>
+    <h1>Body metaphors</h1>
+  </header>
+  
+  <div class="content">
+    <p><img alt="Oil painting of a vase and a lemon pig" src="/assets/images/lemon_pig.jpg" />
+<em>Vase and a lemon pig, oil on canvas, 2026</em></p>
+
+<p>Here is an attempt to talk about an idea that’s been brewing away in my mind for several years now. I think the idea first emerged when I was talking to my line report at GDS about what lead designers actually do. To this, I said (humorously): “the lead designer is fibre in the digestive system, helping the design work to flow along smoothly”.</p>
+
+<p>The design deliverable, of course, is unfortunately compared with poo. I’m still refining this part of this metaphor. There’s probably more to unpack in the fact we don’t like waste or poo in our metaphors, even though filtering waste is actually a critically important part of being alive.</p>
+
+<p>——</p>
+
+<p>I enjoy body metaphors. Every organ in the body has a clear purpose. The lungs allow oxygen to pass through the membrane into the blood. The heart pumps blood around the body.</p>
+
+<p>To function well, organs need to be able to fulfil their purpose without being hindered or blocked. To maintain our human bodies, we need food and sleep.</p>
+
+<p>If teams in the workplace seem synthetic, they’re not: they’re like anything in nature. A team is also a body, and like a body a team needs to be maintained. Teams require the individuals to communicate clearly and collaborate with one another.</p>
+
+<p>Every team member needs a clear purpose. The purpose of individuals needs to be known to themselves and to the other members of the team, and that requires trust.</p>
+
+<p>Trust in a team needs nurturing and renewal. A basic but effective mechanism for renewing trust is the retrospective, with a basic structure of that being what went well, what didn’t go well, and anything in between.</p>
+
+<p>The retrospective is an indicator of health in a team, as a team with low trust may not feel empowered or safe enough to share.</p>
+
+<p>If trust isn’t frequently renewed, this creates blocks. If blockages remain, then organs in the body don’t function as well. The work isn’t as good, and happiness is lower.</p>
+
+<p>By not having retrospectives at all, you are lacking neural pathways between team members (yes, we’re briefly moving onto brain metaphors now). Each team member is also a neuron, and neural pathways are how connections are made between each other, ideas, and concepts. We like neuroplasticity, it makes us more clever, resilient, and more flexible, and we want to encourage neuroplasticity and neural connections.</p>
+
+<h2 id="the-big-powerful-body-of-the-organisation">The big powerful body of the organisation</h2>
+
+<p>Leaders set direction, and help to unblock work. If an objective (or <a href="https://en.wikipedia.org/wiki/Objectives_and_key_results">OKR</a>) happens to be outrageous, unrealistic, disconnected from reality, is too enamoured with a particular solution, or faces massive organisational or political blocks, then the leads should help to understand the blocks and unblock the work. This is why <a href="https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works">discoveries</a> exist. The findings should be listened to. Teams themselves need to be trusted. There aren’t any “naughty teams”.</p>
+
+<p>If you’re a leader, then hearing things that are hard to digest from your team members indicates that they feel safe enough to share. Hearing things that are difficult to hear is a sign that a team is healthy, not an indicator of failure. It’s important to listen, and just indicating you’re listening to them and will consider actions to take can instantly make teams happier.</p>
+
+  </div>
+</article>
+        </main>
+        
+        <footer>
+            <div class="bio">
+<p>Rebecca is a designer committed to creating work that benefits people and the living world (because everything <a href="https://en.wikipedia.org/wiki/Interbeing">inter-is</a>).</p>
+            </br>
+    <p><a href="/about">About</a></p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            console.log('Toggle clicked!'); 
+            
+            const htmlRoot = document.documentElement;
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Current theme attr:', htmlRoot.getAttribute('data-theme')); // Debug
+            console.log('Has data-theme attr:', htmlRoot.hasAttribute('data-theme')); // Debug
+            
+            if (htmlRoot.hasAttribute('data-theme')) {
+                htmlRoot.removeAttribute('data-theme');
+                themeText.innerHTML = 'Light background';
+                localStorage.setItem('theme', 'dark');
+                console.log('Switched to dark');
+            } else {
+                htmlRoot.setAttribute('data-theme', 'light');
+                themeText.innerHTML = 'Dark background';
+                localStorage.setItem('theme', 'light');
+                console.log('Switched to light');
+            }
+            
+            console.log('After change:', htmlRoot.getAttribute('data-theme')); // Debug
+        }
+        
+        window.onload = function() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Saved theme:', savedTheme);
+            
+            if (savedTheme === 'light') {
+                themeText.innerHTML = 'Dark background';
+                console.log('Set button to show dark option');
+            } else {
+                themeText.innerHTML = 'Light background';
+                console.log('Set button to show light option');
+            }
+        }
+    </script>
+</body>
+</html>
