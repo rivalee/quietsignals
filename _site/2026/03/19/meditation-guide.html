@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation guide - Rebecca Cottrell</title>
+    <meta name="description" content="I’ve been meaning to write a short guide for friends who are interested in starting a meditation practice, because whenever I mention that I meditate people ...">
+    
+    <script>
+const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1><a href="/">Rebecca Cottrell</a></h1>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <span id="theme-text">Light background</span>
+            </button>
+        </header>
+        
+        <main>
+            <nav class="back-nav">
+  <a href="/">← Back to posts</a>
+</nav>
+
+<article>
+  <header>
+        <div class="post-date">19 March 2026</div>
+    <h1>Meditation guide</h1>
+  </header>
+  
+  <div class="content">
+    <p>I’ve been meaning to write a short guide for friends who are interested in starting a meditation practice, because whenever I mention that I meditate people say they should start doing that. I agree that you should start doing that.</p>
+
+<p>I started meditating in 2021 and it’s now a basic part of self-maintenance, like having a shower or brushing my teeth, and it’d feel quite bad if I didn’t have a shower or brush my teeth even for a day.</p>
+
+<p>When I meditate I am happier and I have more resilience for dealing with stress and difficult situations. I mostly meditate in the morning but on really busy days it might be at the end of a day, or I might just manage one minute. But it happens every day and 20 minutes is normal.</p>
+
+<h2 id="choose-an-attention-object">Choose an attention object</h2>
+<p>Your mind needs an object. Most meditation techniques involve giving your mind something to focus on, like a cat with a toy.</p>
+
+<p>The breath is one thing to focus on. The toy or object of attention might not seem very interesting, but the mind needs something to hold onto. Your task is to repeatedly bring your mind back to the object.</p>
+
+<p>The main obstacle to meditation is your own mind. Thoughts are intrusive, arriving rapidly and colonising your attention. They can make you question if it’s ‘working’. Just do the practice.</p>
+
+<p>Follow the breath travelling into the lungs, pausing there for a moment, travelling out again, observing the gap between the exhale and the inhale. Become very interested in that.</p>
+
+<h2 id="discomfort-apps-etc">Discomfort, apps, etc</h2>
+
+<p>If you’re hungry or experiencing discomfort (like pins and needles in your leg) during meditation, your mind will likely fill up with thoughts of your hunger and discomfort, which is not helpful for meditation. Don’t push through when it’s impossible, be kind and gentle with yourself.</p>
+
+<p>I recommend using Insight Timer (an app) to time your meditation, and it has bells you can set at intervals (every 5 minutes, for example).</p>
+
+<p>Guided meditations are good when you’re learning to meditate. They’re not necessary. But use anything at your disposal to get you familiar with the practice. I’d recommend Plum Village (Thich Nhat Hanh’s monastery) <a href="https://www.youtube.com/playlist?list=PLHB1Zqu9mBt-8jMLX_DUmYfr2ORuOKONC">guided meditations</a>.</p>
+
+<p>The main thing is using what feels effective and accessible to you.</p>
+
+<h2 id="starting">Starting</h2>
+<p>Choose a spot to meditate, like a cushion on your bedroom floor.</p>
+
+<p>Choose a time, like 8am.</p>
+
+<p>Sit upright but relaxed, the main thing is to be comfortable and alert.</p>
+
+<p>Then just focus on your attention object.</p>
+
+<p>Aim to do 5 to 20 minutes of meditation. If 20 minutes feels overwhelming, tell yourself you’ll do 5 minutes and continue if you feel like it. If you’re meditating and you feel like you really want to stop, then stop. There’s no point having a war with yourself, it should be enjoyable and it genuinely is.</p>
+
+<h2 id="studies">Studies</h2>
+
+<p>Some of my favourite studies about how meditation physically changes the brain:</p>
+
+<ul>
+  <li><strong>Default Mode Network (DMN) Inhibition:</strong> <a href="https://www.pnas.org/doi/10.1073/pnas.1112029108">Long-term meditators show significantly reduced activity in the Default Mode Network</a> – <em>PNAS</em> (2011).</li>
+  <li><strong>Gamma Synchrony:</strong> <a href="https://www.pnas.org/doi/10.1073/pnas.0407401101">Long-term meditators self-induce high-amplitude gamma synchrony during mental practice</a> – <em>PNAS</em> (2004).</li>
+  <li><strong>Structural Plasticity:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/21071182/">Meditation practice leads to increases in regional brain grey matter density</a> – <em>Psychiatry Research: Neuroimaging</em> (2011).</li>
+  <li><strong>Thermoregulation (Tummo):</strong> <a href="https://www.nature.com/articles/295234a0">Meditation raising body temperature in Tibetan monks</a> – <em>Nature</em> (1982).</li>
+</ul>
+
+  </div>
+</article>
+        </main>
+        
+        <footer>
+            <div class="bio">
+<p>Rebecca is a designer committed to creating work that benefits people and the living world (because everything <a href="https://en.wikipedia.org/wiki/Interbeing">inter-is</a>).</p>
+            </br>
+    <p><a href="/about">About</a></p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            console.log('Toggle clicked!'); 
+            
+            const htmlRoot = document.documentElement;
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Current theme attr:', htmlRoot.getAttribute('data-theme')); // Debug
+            console.log('Has data-theme attr:', htmlRoot.hasAttribute('data-theme')); // Debug
+            
+            if (htmlRoot.hasAttribute('data-theme')) {
+                htmlRoot.removeAttribute('data-theme');
+                themeText.innerHTML = 'Light background';
+                localStorage.setItem('theme', 'dark');
+                console.log('Switched to dark');
+            } else {
+                htmlRoot.setAttribute('data-theme', 'light');
+                themeText.innerHTML = 'Dark background';
+                localStorage.setItem('theme', 'light');
+                console.log('Switched to light');
+            }
+            
+            console.log('After change:', htmlRoot.getAttribute('data-theme')); // Debug
+        }
+        
+        window.onload = function() {
+            const savedTheme = localStorage.getItem('theme');
+            const themeText = document.getElementById('theme-text');
+            
+            console.log('Saved theme:', savedTheme);
+            
+            if (savedTheme === 'light') {
+                themeText.innerHTML = 'Dark background';
+                console.log('Set button to show dark option');
+            } else {
+                themeText.innerHTML = 'Light background';
+                console.log('Set button to show light option');
+            }
+        }
+    </script>
+</body>
+</html>
